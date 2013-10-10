@@ -1,12 +1,12 @@
-# revision 21570
+# revision 31835
 # category Package
 # catalog-ctan /fonts/urw/base35
-# catalog-date 2011-03-01 21:42:17 +0100
+# catalog-date 2012-06-06 22:57:48 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-symbol
-Version:	20110301
-Release:	2
+Version:	20120606
+Release:	1
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
@@ -46,8 +46,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/afm/urw/symbol/usyr.afm
 %{_texmfdistdir}/fonts/map/dvips/symbol/usy.map
 %{_texmfdistdir}/fonts/tfm/adobe/symbol/psyr.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/symbol/rpsyr.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/symbol/rpsyro.tfm
 %{_texmfdistdir}/fonts/tfm/monotype/symbol/msyr.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/symbol/usyr.tfm
 %{_texmfdistdir}/fonts/type1/urw/symbol/usyr.pfb
@@ -63,17 +61,3 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
-+ Revision: 756418
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
-+ Revision: 719624
-- texlive-symbol
-- texlive-symbol
-- texlive-symbol
-- texlive-symbol
-
