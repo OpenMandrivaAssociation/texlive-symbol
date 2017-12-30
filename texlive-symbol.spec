@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-symbol
-Version:	20120606
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
