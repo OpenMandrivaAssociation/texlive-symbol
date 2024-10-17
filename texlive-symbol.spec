@@ -3,7 +3,7 @@ Version:	61719
 Release:	2
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
+URL:		https://www.ctan.org/tex-archive/fonts/urw/base35
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/symbol.r%{version}.tar.xz
 BuildArch:	noarch
